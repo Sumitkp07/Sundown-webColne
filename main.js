@@ -59,6 +59,16 @@ function swiper_content(){
     spaceBetween: 30,
     freeMode: true,
     breakpoints :{
+      1024 : {
+        slidesPerView: 3.3,
+        spaceBetween: 30,
+        freeMode: true,
+      },
+      968 : {
+        slidesPerView: 3.3,
+        spaceBetween: 30,
+        freeMode: true,
+      },
       576 : {
         slidesPerView: 1.8,
         spaceBetween: 30,
