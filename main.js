@@ -54,17 +54,54 @@ function main_tabs() {
 }
 
 function swiper_content(){
-
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 3.3,
     spaceBetween: 30,
     freeMode: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+    breakpoints :{
+      576 : {
+        slidesPerView: 1.8,
+        spaceBetween: 30,
+        freeMode: true,
+      },
+      400 : {
+        slidesPerView: 1.8,
+        spaceBetween: 30,
+        freeMode: true,
+      },
+      300 : {
+        slidesPerView: 1.2,
+        spaceBetween: 30,
+        freeMode: true,
+      }
+    }
+  },
+)};
+
+function loader(){
+  setTimeout(() => {
+    document.getElementById('loader').style.top='-100%'
+  }, 4500);
 }
+
+function menubar(){
+var bar1 = document.querySelector('.bar1');
+var bar2 = document.querySelector('.bar2');
+var menu = document.querySelector('.menubar');
+var overlay = document.querySelector('.menubar-overlay');
+var overlayComtent = document.querySelector('.menubarOverlay-content');
+
+menu.addEventListener('click',(e)=>{
+  e.preventDefault()
+  bar1.classList.toggle('active');
+  bar2.classList.toggle('active');
+  overlay.classList.toggle('OverlayToggle');
+  overlayComtent.classList.toggle('OverlayToggle');
+});
+}
+
+menubar();
+loader();
 elem_container();
 main_tabs();
 swiper_content(); 

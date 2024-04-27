@@ -1,0 +1,244 @@
+@media screen and (max-width:1025px){
+    video {
+        width: 99%;
+    }
+    .elem h1 {
+        font-size: 2.4rem;
+    }
+    .tab {
+        padding: 20vh 3vw;
+    }
+    .footerBottomHeading > h1 {
+        font-size: 14rem;
+    }
+    .feature-btn .btn {
+        width: 20vw;
+    }    
+}
+
+@media screen and (max-width:972px) {
+    body{
+        overflow-x: hidden;
+    }
+    .right h1 {
+        font-size: 8rem;
+        line-height: 7rem;
+    }
+
+    .motion{
+        right: -20px;
+    } 
+
+    .footerBottomHeading > h1 {
+        font-size: 13rem;
+    }
+    .part-1 h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footerTopHeading {
+        padding: 10% 7%;
+    }
+    .footerBottomHeading > h1 {
+        font-size: 10rem;
+    }
+    .small-heading {
+        margin-right: 6.2vw;
+    }
+    .motion {
+        right: -10px;
+    }
+    #main-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tab {
+        height: 80vh;
+        padding: 10vh 3vw;
+    }
+    .alltabcontents {
+        height: 80vh;
+    }
+    .tabcontent {
+        height: 100%;
+    }
+    .para {
+        width: 38vw;
+    }
+    .tab button {
+        line-height: 10vh;
+        font-size: 3.5rem;
+    }
+    .line::before{
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #loader h1 {
+        font-size: 4rem;
+    }
+    .list{
+        display: none;
+    }
+    .menubar{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 51;
+    }
+    .motion {
+        right: -8px;
+        top: 350px;
+    }
+    #hero {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+      }
+      .left{
+        align-self: flex-start;
+        width: 67%;
+      }
+      .right h1 {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    #main-2 {
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .part-1 {
+        width: 100%;
+      }
+      .part-1 h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+      .part-2 {
+        width: 55%;
+        z-index: 2;
+        margin-top: 50px;
+        align-self: self-start;
+      }
+      .moving-circle {
+        width: 400px;
+        height: 400px;
+        right: 5%;
+    }
+    .elem h1 {
+        font-size: 2rem;
+    }
+    .feature-btn .btn {
+        width: 40vw;
+    }
+    .tab {
+        height: 75vh;
+        width: 100%;
+        padding: 6vh 10vw;
+        z-index: 1;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+    }
+    .para {
+        width: 70vw;
+    }
+
+    #main-4 {
+        flex-direction: column;
+    }
+    .alltabcontents {
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        bottom: 50px;
+
+    }
+    .tabcontent img{
+        border-radius: 24px;
+    }
+    .tabcontent{
+        border-radius: 24px;
+
+    }
+    .footerTopHeading {
+        padding: 20% 7%;
+    }
+    .footerBottomHeading > h1 {
+        font-size: 7rem;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+    #loader h1 {
+        font-size: 3rem;
+    }
+    .menubarOverlay-content h4{
+        top: 40%;
+        font-size: 3rem;
+      }
+      .menubarOverlay-content{
+        height: 50%;
+      }
+    .right h1 {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+    .left {
+        align-self: flex-start;
+        width: 100%;
+    }
+    .motion {
+        height: 28vh;
+        width: 68vw;
+        top: 340px;
+    }
+    .cont h1 {
+        font-size: 3rem;
+    }
+    .cont .circle {
+        width: 20px;
+        height: 20px;
+        margin: 1vh 2vw;
+    }
+    .moving-circle {
+        width: 300px;
+        height: 300px;
+        right: 0;
+    }
+    .part-2 {
+        width: 75%;
+    }
+    .elem h1 {
+        font-size: 1.5rem;
+    }
+    .small-heading p {
+        font-size: 0.7rem;
+    }
+    .small-heading h6 {
+        font-size: 0.75rem;
+    }
+    .fixed-img {
+        height: 37vh;
+        width: 47vw;
+        left: 33%;
+    }
+    .footerBottomHeading > h1 {
+        font-size: 5rem;
+    }
+    .footerTopHeading {
+        flex-direction: column;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        row-gap: 1rem;
+    }
+
+}
